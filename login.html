@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Geminin Coin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcom To Geminin Coin </h1>
+        <h2>Login to Continue</h2>
+         <div id="google_translate_element"></div>
+        <img class="gemini-bitcoin-futures" src="img/gemini-bitcoin-futures.webp" alt="my gemini-bitcoin-futures">
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username/ Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password/ PIN:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" Login></button><a href="dashboard.html">Login</a>
+            <div
+            <button type="submit"sigh in></button><a href="sign.html">Do Not Have An Account ? sign up</a>
+            </button>
+            <p id="message" class="error-message"></p>
+        </form>
+    </div>
+    <script src="login.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+        </script>
+        <script type="text/javascript" src="https//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

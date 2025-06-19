@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Trading Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <h2>Sign Up To Continue To Geminin Trading Coin </h2>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="username">Username: 
+                <div </label></div>
+                <input type="text" id="username" name="username" required>
+            </div>
+             <div class="form-group">
+                <label for="username">Real name:  
+                    <div </label></div>
+                <input type="text" id="username" name="username" required>
+            <div class="form-group">
+                <label for="email">Email:
+                    <div </label></div>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:
+                    <div </label></div>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password:
+                    <div </label></div>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+             <div class="form-group">
+                <label for="password">Invitation code:
+                    <div </label></div>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Create Account</button>
+            <p id="message" class="error-message"></p><a href="dashboard.html"></a></p>
+            <p class="switch-form-link"></p><a href="dashboard.html"></a></p>
+        </form>
+        <p class="switch-form-link">Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

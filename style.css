@@ -1,35 +1,55 @@
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f5f7fa;
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-header {
-    background: #222c36;
-    color: #fff;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body{
+    min-height: 100vh;
+
 }
-main {
-    padding: 2rem;
+form{
+    width: 350px;
+    height: 580px;
+    padding: 75px 50px;
+    left: 50%;
+    right: 50%;
+    transform: translate(+10%, +30%);
 }
-.dashboard {
-    background: #fff;
-    border-radius: 8px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+.container {
+    background-color: #524646;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 4px 15px rgba(134, 125, 125, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
 }
-footer {
-    background: #222c36;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
-select {
-    padding: 0.3rem;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+.h2 {
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.button {
+    background-color: #41a065;
+    color: rgb(52, 107, 51);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.gemini-bitcoin-futures{
+    width: 300px;
 }
